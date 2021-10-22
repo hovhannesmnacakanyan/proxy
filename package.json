@@ -1,0 +1,25 @@
+{
+  "name": "alpha-omega",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "nodemon": "^2.0.13",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "nodemon serverProxy.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5050"
+}
