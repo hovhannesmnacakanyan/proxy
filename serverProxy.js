@@ -1,7 +1,8 @@
 const http = require('http');
 const request = require('request');
 const serverUrl = 'http://192.168.40.18:8081';
-const serverPort = 5050;
+// const serverUrl = 'http://3.66.144.229';
+const serverPort = 8080;
 
 http
   .createServer(function (req, res) {
